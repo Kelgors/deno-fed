@@ -1,0 +1,17 @@
+{
+  "deno.enable": true,
+  "editor.formatOnSave": true,
+  "editor.inlayHints.enabled": "off",
+  "editor.codeActionsOnSave": [
+    "source.organizeImports"
+  ],
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
+}
